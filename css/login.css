@@ -1,0 +1,19 @@
+.login{
+
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.Sign_in,.Sign_up{
+    padding: 5px 20px;
+    background-color: #E5F2B6 !important;
+    color: black !important;
+    border-radius: 7px;
+    text-decoration: none;
+}
+.Sign_in:hover,.Sign_up:hover{
+    color: var(--buttonColor);
+    background-color: transparent;
+    border:1px solid  var(--buttonColor);
+    
+}
